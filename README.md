@@ -2,7 +2,8 @@
 
 Plain-English personal injury law guides for Washington, Oregon and Arizona, written by attorney Parham Hakimi and published by [Select Law](https://www.selectlawgroup.com/).
 
-🌐 **Live Site:** [https://selectlowgroup-svg.github.io/injury-law-guide/](https://selectlowgroup-svg.github.io/injury-law-guide/)
+🌐 **Live Site:** [https://selectlowgroup-svg.github.io/injury-law-guide/](https://selectlowgroup-svg.github.io/injury-law-guide/)  
+📰 **Blog Archive:** [https://selectlowgroup-svg.github.io/injury-law-guide/blog.html](https://selectlowgroup-svg.github.io/injury-law-guide/blog.html)
 
 ---
 

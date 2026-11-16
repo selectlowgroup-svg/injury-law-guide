@@ -152,6 +152,7 @@ body {
   color: #ffffff !important;
   padding: 6px 14px;
   border-radius: 6px;
+  text-decoration: none !important;
 }
 .sl-nav .btn-consult {
   background: var(--sl-amber);
@@ -159,6 +160,7 @@ body {
   font-weight: 700;
   padding: 8px 18px;
   border-radius: 6px;
+  text-decoration: none !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 .sl-nav .btn-consult:hover { filter: brightness(1.08); }
@@ -294,21 +296,31 @@ body {
   color: #64748b;
   margin: 0 0 18px;
 }
-.sl-cta-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 12px 24px;
-  background: var(--sl-teal);
-  color: #ffffff;
-  box-shadow: 0 2px 6px rgba(2,58,85,0.3);
-  transition: background .15s;
+
+/* Explicit Button Styling & Color Override */
+.sl-cta-btn,
+.sl-article-body a.sl-cta-btn,
+.sl-article-body .sl-cta-right a.sl-cta-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  text-decoration: none !important;
+  padding: 13px 26px !important;
+  background: var(--sl-teal) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(2,58,85,0.3) !important;
+  transition: background .15s !important;
 }
-.sl-cta-btn:hover { background: var(--sl-navy); }
+.sl-cta-btn:hover,
+.sl-article-body a.sl-cta-btn:hover,
+.sl-article-body .sl-cta-right a.sl-cta-btn:hover {
+  background: var(--sl-navy) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
 
 /* TL;DR Component */
 .sl-tldr {
@@ -372,15 +384,17 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
-.sl-toc-list a {
-  color: var(--sl-teal);
-  text-decoration: none;
+.sl-toc-list a,
+.sl-article-body .sl-toc-list a {
+  color: var(--sl-teal) !important;
+  text-decoration: none !important;
   font-weight: 500;
   display: inline-block;
 }
-.sl-toc-list a:hover {
-  color: var(--sl-navy);
-  text-decoration: underline;
+.sl-toc-list a:hover,
+.sl-article-body .sl-toc-list a:hover {
+  color: var(--sl-navy) !important;
+  text-decoration: underline !important;
 }
 
 /* Typography Inside Article */
@@ -498,23 +512,26 @@ body {
   line-height: 1.5;
 }
 .sl-office-card strong { color: var(--sl-text-dark); }
-.sl-office-card a.phone {
-  color: var(--sl-teal);
-  font-weight: 700;
-  text-decoration: none;
+.sl-office-card a.phone,
+.sl-article-body .sl-office-card a.phone {
+  color: var(--sl-teal) !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
 }
 .sl-office-card .links {
   margin-top: 12px;
   padding-top: 10px;
   border-top: 1px solid var(--sl-border);
 }
-.sl-office-card .links a {
+.sl-office-card .links a,
+.sl-article-body .sl-office-card .links a {
   color: var(--sl-teal);
   font-weight: 600;
   font-size: 13px;
   text-decoration: none;
 }
-.sl-office-card .links a:hover { text-decoration: underline; }
+.sl-office-card .links a:hover,
+.sl-article-body .sl-office-card .links a:hover { text-decoration: underline; }
 
 /* Sources List */
 .sl-sources {
@@ -663,7 +680,7 @@ body {
           <h4>Free Consultation With Attorney Parham Hakimi</h4>
           <div class="sl-cta-divider"></div>
           <p>Direct attorney contact, no middleman, and zero legal fee unless compensation is recovered for your injury claim.</p>
-          <a href="https://www.selectlawgroup.com/contact-us/" target="_blank" rel="noopener" class="sl-cta-btn">Schedule Free Consultation &rarr;</a>
+          <a href="https://www.selectlawgroup.com/contact-us/" target="_blank" rel="noopener" class="sl-cta-btn" style="color:#ffffff !important;background:#023A55;text-decoration:none !important;font-weight:700;">Schedule Free Consultation &rarr;</a>
         </div>
       </div>
     </div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://selectlowgroup-svg.github.io/injury-law-guide/sitemap.xml
